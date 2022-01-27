@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "support_pg"
+version = "0.1.0"
+description = "Code used to diagnose and test pg related issues"
+authors = ["marregui <miguel@questdb.io>"]
+license = "Apache 2.0"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+asyncio = "^3.4.3"
+asyncpg = "^0.25.0"
+psycopg2 = "^2.9.3"
+
+[tool.poetry.dev-dependencies]
+asyncio = "^3.4.3"
+asyncpg = "^0.25.0"
+psycopg2 = "^2.9.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
